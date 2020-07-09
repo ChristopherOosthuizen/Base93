@@ -21,7 +21,7 @@ public class Main {
         if(num == 0)
             return "0";
         long copy = num;
-        boolean isNeg =copy<0;
+        boolean isNeg = copy<0;
         if(isNeg) {
             copy = Math.abs(num);
             System.out.println(copy);
